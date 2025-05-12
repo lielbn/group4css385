@@ -27,9 +27,9 @@ export default function GamePage() {
             Will you navigate the desert and survive the traps to rescue the princess and complete your mission?
           </p>
         </section>
-
+        
         {/* Unity Game Embed Placeholder */}
-        <section className="w-full max-w-4xl mb-10">
+        <section id="play" className="w-full max-w-4xl mb-10">
           <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4">Play the Game</h2>
           <div className="w-full aspect-video bg-[#cfd8dc] rounded-xl flex items-center justify-center border border-dashed border-[#5e72eb]">
             <p className="text-[#6b7280] font-mono">
@@ -37,19 +37,16 @@ export default function GamePage() {
             </p>
           </div>
         </section>
-
+        
         {/* Theme Section */}
-        <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-12 border-2 border-[#ff9190]">
+        <section id="theme" className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-12 border-2 border-[#ff9190]">
           <h2 className="text-2xl font-semibold text-[#ff9190] mb-2">Theme: "To-Get-Her"</h2>
           <p className="text-lg">
             The theme of our game is a play on the word <strong>together</strong>, reimagined as <strong>to-get-her</strong>. 
-            Our mission is not just about defeating obstacles—it’s about getting her back, saving someone who needs us, and being the force that brings hope and action.
-          </p>
-          <p className="text-lg mt-2">
-            The princess in our game depends on the player. She is not just a goal—she represents someone in need of help, someone who can’t escape without support. 
-            Through this journey, we show that being <em>together</em> is about standing up for those who need us, even in the toughest moments.
+            Our mission is not just about defeating obstacles—it’s about getting her back, saving someone who needs us...
           </p>
         </section>
+
 
         {/* Footer */}
         <footer className="text-sm text-[#6b7280]">
