@@ -27,7 +27,7 @@ body {
 }
 
 .font-game {
-  font-family: var(--font-game);
+  font-family: var(--font-game), monospace, sans-serif;
 }
 
 /* Headings */
