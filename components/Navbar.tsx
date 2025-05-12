@@ -13,21 +13,9 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="flex space-x-8 text-sm uppercase tracking-wide">
-          <Link href="/">
-            <span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
-              Home
-            </span>
-          </Link>
-          <Link href="#play">
-            <span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
-              Play Game
-            </span>
-          </Link>
-          <Link href="#theme">
-            <span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
-              Theme
-            </span>
-          </Link>
+          <Link href="/"><span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">Home</span></Link>
+          <Link href="#play"><span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">Play Game</span></Link>
+          <Link href="#theme"><span className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">Theme</span></Link>
         </div>
       </div>
     </nav>
