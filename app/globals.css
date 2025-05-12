@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Retro game font */
 
+
+
 :root {
   --bg-color: #fdf6f0;
   --primary-dark: #643a28;
@@ -21,6 +23,10 @@ body {
   color: var(--primary-dark);
   font-family: var(--font-game);
   line-height: 1.6;
+}
+
+.font-game {
+  font-family: var(--font-game);
 }
 
 /* Headings */
