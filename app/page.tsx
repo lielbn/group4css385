@@ -1,103 +1,60 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
+import Image from 'next/image'
+import Link from 'next/link'
+import Navbar from '@/components/Navbar'
+
+export default function GamePage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-[#fdf6f0] text-[#0b0742] p-8 flex flex-col items-center">
+        <h1 className="text-4xl font-bold text-[#120c6e] mb-4 text-center">
+          Group 4 - Unity Game Project: *To-Get-Her*
+        </h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        {/* Game Backstory */}
+        <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-8 border-2 border-[#fdco94]">
+          <h2 className="text-2xl font-semibold text-[#5e72eb] mb-2">Backstory</h2>
+          <p className="text-lg mb-2">
+            In our game, you play as a brave knight on a quest to rescue a princess trapped in a tall, guarded tower in the heart of a wild desert oasis. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step could alert the monster guarding the tower. 
+          </p>
+          <p className="text-lg mb-2">
+            As you travel, collect coins to increase your score, but beware—stepping on a bomb puts your life at risk. If that happens, you’ll have one chance to win your life back by playing and winning a quick round of Tic Tac Toe. Lose the game, and your life is lost.
+          </p>
+          <p className="text-lg">
+            Will you navigate the desert and survive the traps to rescue the princess and complete your mission?
+          </p>
+        </section>
+
+        {/* Unity Game Embed Placeholder */}
+        <section className="w-full max-w-4xl mb-10">
+          <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4">Play the Game</h2>
+          <div className="w-full aspect-video bg-[#cfd8dc] rounded-xl flex items-center justify-center border border-dashed border-[#5e72eb]">
+            <p className="text-[#6b7280] font-mono">
+              Unity WebGL Game Placeholder — Embed coming soon
+            </p>
+          </div>
+        </section>
+
+        {/* Theme Section */}
+        <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-12 border-2 border-[#ff9190]">
+          <h2 className="text-2xl font-semibold text-[#ff9190] mb-2">Theme: "To-Get-Her"</h2>
+          <p className="text-lg">
+            The theme of our game is a play on the word <strong>together</strong>, reimagined as <strong>to-get-her</strong>. 
+            Our mission is not just about defeating obstacles—it’s about getting her back, saving someone who needs us, and being the force that brings hope and action.
+          </p>
+          <p className="text-lg mt-2">
+            The princess in our game depends on the player. She is not just a goal—she represents someone in need of help, someone who can’t escape without support. 
+            Through this journey, we show that being <em>together</em> is about standing up for those who need us, even in the toughest moments.
+          </p>
+        </section>
+
+        {/* Footer */}
+        <footer className="text-sm text-[#6b7280]">
+          Created by CSS 385 Group 4 — 2025
+        </footer>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    </>
+  )
 }
