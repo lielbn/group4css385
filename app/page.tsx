@@ -2,7 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Navbar from '@/components/Navbar'
+import Navbar from '../components/Navbar' // adjust path based on your folder structure
+
 
 export default function GamePage() {
   return (
