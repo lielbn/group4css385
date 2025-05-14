@@ -12,7 +12,10 @@ export default function GamePage() {
       <Navbar />
       <main className="min-h-screen bg-[#fdf6f0] text-[#0b0742] p-8 flex flex-col items-center">
         <h1 className="text-4xl font-bold text-[#120c6e] mb-4 text-center">
-          Group 4 - Unity Game Project: *To-Get-Her*
+          Once Upon a Run
+        </h1>
+        <h1 className="text-4xl font-bold text-[#120c6e] mb-4 text-center">
+          Group 4 - Unity Game Project
         </h1>
 
         {/* Game Backstory */}
@@ -51,7 +54,7 @@ export default function GamePage() {
 
         {/* Footer */}
         <footer className="text-sm text-[#6b7280]">
-          Created by CSS 385 Group 4 — 2025
+          Created by CSS 385 Group 4 (Liel Ben Noon, Julia Nguyen, Manish Sharma, and Vanshika Singh — 2025 
         </footer>
       </main>
     </>
