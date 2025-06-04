@@ -33,18 +33,20 @@ export default function GamePage() {
         </section>
 
         {/* Trailer Section */}
-        <section id="trailer" className="w-full max-w-4xl mb-10">
-          <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4 text-center">Game Trailer</h2>
-          <div className="w-full aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/eraBHafflgM?si=mVQSetMU8TTtV6mR"
-              title="Once Upon a Run Trailer"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-[400px] rounded-xl"
-            ></iframe>
+        <section id="trailer" className="w-full mb-16 flex flex-col items-center">
+          <h2 className="text-3xl font-bold text-center text-[#5e72eb] mb-4">Game Trailer</h2>
+          <div className="flex justify-center w-full">
+            <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
+              <iframe
+                src="https://www.youtube.com/embed/eraBHafflgM?si=mVQSetMU8TTtV6mR"
+                width="960"
+                height="540"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="block w-full"
+                title="Once Upon a Run Trailer"
+              ></iframe>
+            </div>
           </div>
         </section>
 
