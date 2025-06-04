@@ -47,18 +47,17 @@ export default function GamePage() {
             ></iframe>
           </div>
         </section>
-        
-        {/* Unity Game Embed */}
-        <section id="play" className="w-full max-w-4xl mb-10">
-          <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4">Play the Game</h2>
-          <div className="w-full aspect-video bg-black rounded-xl border border-[#5e72eb] overflow-hidden">
+
+        {/* Play Section */}
+        <section id="play" className="w-full max-w-5xl mb-12">
+          <h2 className="text-3xl font-bold text-center text-[#5e72eb] mb-4">Play the Game</h2>
+          <div className="relative w-full" style={{ paddingBottom: '56.25%', height: 0 }}>
             <iframe
-              src="https://jmnguyen03.github.io/FinalProject/"  // <-- Replace with your actual link
-              width="100%"
-              height="100%"
+              className="absolute top-0 left-0 w-full h-full rounded-xl shadow-lg"
+              src="https://jmnguyen03.github.io/FinalProject/"
+              title="Once Upon a Run"
+              frameBorder="0"
               allowFullScreen
-              className="w-full h-[600px] rounded-xl"
-              title="Once Upon a Run Game"
             ></iframe>
           </div>
         </section>
