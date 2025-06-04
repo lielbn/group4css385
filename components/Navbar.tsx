@@ -18,7 +18,7 @@ export default function Navbar() {
               Home
             </a>
           </Link>
-          <Link href="/" passHref>
+          <Link href="#trailer" passHref>
             <a className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
               Trailer
             </a>
