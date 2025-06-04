@@ -31,6 +31,22 @@ export default function GamePage() {
             Will you navigate the desert and survive the traps to rescue the princess and complete your mission?
           </p>
         </section>
+
+        {/* Trailer Section */}
+        <section id="trailer" className="w-full max-w-4xl mb-10">
+          <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4 text-center">Game Trailer</h2>
+          <div className="w-full aspect-video bg-black rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Once Upon a Run Trailer"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-[400px] rounded-xl"
+            ></iframe>
+          </div>
+        </section>
         
         {/* Unity Game Embed */}
         <section id="play" className="w-full max-w-4xl mb-10">
