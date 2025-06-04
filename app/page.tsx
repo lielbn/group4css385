@@ -39,7 +39,7 @@ export default function GamePage() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              src="https://youtu.be/eraBHafflgM"
               title="Once Upon a Run Trailer"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
