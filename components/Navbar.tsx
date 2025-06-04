@@ -18,6 +18,11 @@ export default function Navbar() {
               Home
             </a>
           </Link>
+          <Link href="/" passHref>
+            <a className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
+              Trailer
+            </a>
+          </Link>
           <Link href="#play" passHref>
             <a className="text-[#fcebd6] hover:text-[#c4743b] transition duration-200">
               Play Game
