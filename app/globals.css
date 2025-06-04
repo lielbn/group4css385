@@ -133,6 +133,13 @@ li {
   text-align: center;
 }
 
+section iframe,
+section video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer */
 footer {
   font-size: 0.8rem;
