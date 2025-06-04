@@ -22,7 +22,7 @@ export default function GamePage() {
         <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-8 border-2 border-[#fdco94]">
           <h2 className="text-2xl font-semibold text-[#5e72eb] mb-2">Backstory</h2>
           <p className="text-lg mb-2">
-            In our game, you play as a brave cowboy on a quest to rescue a princess who cannot make it back home due to her sickness, therefore, she is stuck in the heart of a wild desert oasis. Your goal is to save the princess and through the process hopefully win her love. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step would mean your place in the journe is over. 
+            In our game, you play as a brave cowboy on a quest to rescue a princess who cannot make it back home due to her injury, therefore, she is stuck in the heart of a wild desert oasis. Your goal is to save the princess and through the process hopefully win her love. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step would mean your place in the journe is over. 
           </p>
           <p className="text-lg mb-2">
             As you travel, you will collect aloes to increase your score and with their amazing healing power, you will make a healing potion for our princess, but beware — stepping on a bomb puts your life at risk. You will receive 2 lives, if you lose all, you’ll have one chance to win your life back by playing and winning a quick round of Tic Tac Toe. Lose the game, and your life is lost.
