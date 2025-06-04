@@ -71,7 +71,7 @@ export default function GamePage() {
           <h2 className="text-2xl font-semibold text-[#ff9190] mb-2">Theme: "To-Get-Her"</h2>
           <p className="text-lg">
             The theme of our game is a play on the word <strong>together</strong>, reimagined as <strong>to-get-her</strong>. 
-            Our mission is not just about defeating obstacles—it’s about getting her back, saving someone who needs us...
+            Our mission is not just about defeating obstacles—it’s about getting her the neccesary healing potion for her injury, saving someone who needs us...
           </p>
         </section>
 
