@@ -49,18 +49,20 @@ export default function GamePage() {
         </section>
 
         {/* Play Section */}
-        <section id="play" className="w-full max-w-5xl mb-16 flex flex-col items-center">
+        <section id="play" className="w-full mb-16 flex flex-col items-center">
           <h2 className="text-3xl font-bold text-center text-[#5e72eb] mb-4">Play the Game</h2>
-          <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
-            <iframe
-              src="https://jmnguyen03.github.io/FinalProject/"
-              width="960"
-              height="600"
-              allowFullScreen
-              scrolling="no"
-              className="block w-full"
-              title="Once Upon a Run"
-            ></iframe>
+          <div className="flex justify-center w-full">
+            <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
+              <iframe
+                src="https://jmnguyen03.github.io/FinalProject/"
+                width="960"
+                height="600"
+                allowFullScreen
+                scrolling="no"
+                className="block w-full"
+                title="Once Upon a Run"
+              ></iframe>
+            </div>
           </div>
         </section>
         
