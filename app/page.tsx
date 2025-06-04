@@ -22,23 +22,28 @@ export default function GamePage() {
         <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-8 border-2 border-[#fdco94]">
           <h2 className="text-2xl font-semibold text-[#5e72eb] mb-2">Backstory</h2>
           <p className="text-lg mb-2">
-            In our game, you play as a brave knight on a quest to rescue a princess trapped in a tall, guarded tower in the heart of a wild desert oasis. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step could alert the monster guarding the tower. 
+            In our game, you play as a brave cowbody on a quest to rescue a princess trapped by a big, scary monster in the heart of a wild desert oasis. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step could alert the monster keeping the princess captive. 
           </p>
           <p className="text-lg mb-2">
-            As you travel, collect coins to increase your score, but beware—stepping on a bomb puts your life at risk. If that happens, you’ll have one chance to win your life back by playing and winning a quick round of Tic Tac Toe. Lose the game, and your life is lost.
+            As you travel, collect aloes to increase your score for their amazing healing power, but beware—stepping on a bomb puts your life at risk. You will receive 3 lives, if you lose all, you’ll have one chance to win your life back by playing and winning a quick round of Tic Tac Toe. Lose the game, and your life is lost.
           </p>
           <p className="text-lg">
             Will you navigate the desert and survive the traps to rescue the princess and complete your mission?
           </p>
         </section>
         
-        {/* Unity Game Embed Placeholder */}
+        {/* Unity Game Embed */}
         <section id="play" className="w-full max-w-4xl mb-10">
           <h2 className="text-2xl font-semibold text-[#5e72eb] mb-4">Play the Game</h2>
-          <div className="w-full aspect-video bg-[#cfd8dc] rounded-xl flex items-center justify-center border border-dashed border-[#5e72eb]">
-            <p className="text-[#6b7280] font-mono">
-              Unity WebGL Game Placeholder — Embed coming soon
-            </p>
+          <div className="w-full aspect-video bg-black rounded-xl border border-[#5e72eb] overflow-hidden">
+            <iframe
+              src="https://your-unity-webgl-host.com/index.html"  // <-- Replace with your actual link
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="w-full h-[600px] rounded-xl"
+              title="Once Upon a Run Game"
+            ></iframe>
           </div>
         </section>
         
