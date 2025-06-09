@@ -18,19 +18,40 @@ export default function GamePage() {
           Group 4 - Unity Game Project
         </h1>
 
-        {/* Game Backstory */}
+                {/* Game Backstory */}
         <section className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-8 border-2 border-[#fdco94]">
           <h2 className="text-2xl font-semibold text-[#5e72eb] mb-2">Backstory</h2>
           <p className="text-lg mb-2">
-            In our game, you play as a brave cowboy on a quest to rescue a princess who cannot make it back home due to her injury, therefore, she is stuck in the heart of a wild desert oasis. Your goal is to save the princess and through the process hopefully win her love. Your journey is dangerous—bombs are hidden throughout the desert and one wrong step would mean your place in the journe is over. 
+            Dust off those boots—this cowboy isn’t riding a horse, he’s running full speed through danger for love! 
+            The princess is stuck in the middle of two brutal deserts with nothing but a sprained ankle and a serious lack of aloe vera. 
+            Your job? Dash through scorching sand and icy madness to collect aloe and save the day (and maybe score a kiss).
           </p>
           <p className="text-lg mb-2">
-            As you travel, you will collect aloes to increase your score and with their amazing healing power, you will make a healing potion for our princess, but beware — stepping on a bomb puts your life at risk. You will receive 2 lives, if you lose all, you’ll have one chance to win your life back by playing and winning a quick round of Tic Tac Toe. Lose the game, and your life is lost.
+            Set your target score (anywhere from 100 to 5000) and take off running. 
+            You’ll earn 70% of your score in the Sand Desert, dodging cranky sand rocks. 
+            Then brace yourself for the Ice Desert, where 30% of your score waits behind a blizzard of slippery icebergs.
           </p>
-          <p className="text-lg">
-            Will you navigate the desert and survive the traps to rescue the princess and complete your mission?
+          <p className="text-lg mb-2">
+            Each aloe is worth +2 points, but here’s the twist: Every 20 points, your speed ramps up by 3. 
+            Because clearly, things weren’t chaotic enough. Feeling bold? You can boost your speed manually too—
+            because who needs safety when you have adrenaline?
+          </p>
+          <p className="text-lg mb-2">
+            You’ve got 2 lives, so watch your step. Lose both, and your only shot is a one-round Tic Tac Toe game to win a life back. 
+            No pressure. Lose again, and it’s back to square one—unless you’re brave (or stubborn) enough to restart.
+          </p>
+          <p className="text-lg mb-2">
+            Use the <strong>arrow keys</strong> to move left and right, and press the <strong>space bar</strong> to jump over hazards.
+          </p>
+          <p className="text-lg mb-2">
+            Will you outrun bombs, survive sliding into icebergs, and collect enough aloe to save the princess? 
+            Or will you be remembered as the cowboy who sprinted straight into disaster?
+          </p>
+          <p className="text-lg font-semibold">
+            Only one way to find out. Run, cowboy, run!
           </p>
         </section>
+
 
         {/* Trailer Section */}
         <section id="trailer" className="w-full mb-16 flex flex-col items-center">
@@ -38,7 +59,7 @@ export default function GamePage() {
           <div className="flex justify-center w-full">
             <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
               <iframe
-                src="https://www.youtube.com/embed/eraBHafflgM?si=mVQSetMU8TTtV6mR"
+                src="https://www.youtube.com/embed/GxiE10fzalE?si=dAw0rbDS14OJXdnA"
                 width="960"
                 height="540"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -56,7 +77,7 @@ export default function GamePage() {
           <div className="flex justify-center w-full">
             <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
               <iframe
-                src="https://jmnguyen03.github.io/FinalProject/"
+                src="https://jmnguyen03.github.io/OnceUponARun/"
                 width="960"
                 height="600"
                 allowFullScreen
