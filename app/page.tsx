@@ -33,15 +33,14 @@ export default function GamePage() {
           </p>
           <p className="text-lg mb-2">
             Each aloe is worth +2 points, but here’s the twist: Every 20 points, your speed ramps up by 3. 
-            Because clearly, things weren’t chaotic enough. Feeling bold? You can boost your speed manually too—
-            because who needs safety when you have adrenaline?
+            Because clearly, things weren’t chaotic enough.
+          </p>
+          <p className="text-lg mb-2">
+            Use the <strong>Left</strong> and <strong>Right arrow keys</strong> to dodge hazards, and tap the <strong>Spacebar</strong> to jump over obstacles like sand rocks and icebergs.
           </p>
           <p className="text-lg mb-2">
             You’ve got 2 lives, so watch your step. Lose both, and your only shot is a one-round Tic Tac Toe game to win a life back. 
             No pressure. Lose again, and it’s back to square one—unless you’re brave (or stubborn) enough to restart.
-          </p>
-          <p className="text-lg mb-2">
-            Use the <strong>arrow keys</strong> to move left and right, and press the <strong>space bar</strong> to jump over hazards.
           </p>
           <p className="text-lg mb-2">
             Will you outrun bombs, survive sliding into icebergs, and collect enough aloe to save the princess? 
@@ -71,9 +70,12 @@ export default function GamePage() {
           </div>
         </section>
 
-        {/* Play Section */}
+                {/* Play Section */}
         <section id="play" className="w-full mb-16 flex flex-col items-center">
           <h2 className="text-3xl font-bold text-center text-[#5e72eb] mb-4">Play the Game</h2>
+          <p className="text-md text-[#0b0742] mb-4 text-center">
+            For a better experience, play in <strong>full screen</strong>!
+          </p>
           <div className="flex justify-center w-full">
             <div className="w-full max-w-[960px] rounded-xl overflow-hidden shadow-lg border border-[#5e72eb]">
               <iframe
@@ -88,6 +90,7 @@ export default function GamePage() {
             </div>
           </div>
         </section>
+
         
         {/* Theme Section */}
         <section id="theme" className="max-w-3xl bg-white rounded-xl shadow-lg p-6 mb-12 border-2 border-[#ff9190]">
